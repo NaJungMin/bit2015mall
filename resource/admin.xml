@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="admin">
+	<typeAlias alias="AdminVo" type="com.bit2015.bit2015mall.vo.AdminVo" />
+
+<select id="list" resultClass="AdminVo">
+	
+	<![CDATA[
+		select no,
+				id, password, name, birthday, phone_number, 
+				handphone, email, address, condition, type
+		 from shopmember
+	]]>
+</select>
+
+
+<!-- 
+	<insert id="insert" parameterClass="UserVo">
+		<![CDATA[
+		insert
+		  into shopmember
+		values ( member_no_seq.nextval, 
+				#id#, #password#, #name#, #birthday#, #phone_number#, 
+				#handphone#, #email#, #address#, #condition#, #type# )
+		]]>	
+	</insert>
+
+ 
+	<select id="getByIdAndPassword" resultClass="UserVo" parameterClass="java.util.Map">
+		<![CDATA[
+		select no, id, name
+          from shopmember
+         where id=#id#
+           and password=#password#
+        ]]>    	
+	</select>
+	
+	<select id="member_modify_view" resultClass="UserVo">
+		<![CDATA[
+		select no,
+				id, password, name, birthday, phone_number, 
+				handphone, email, address, condition, type
+		 from shopmember where no=#no#
+        ]]>    	
+	</select>
+	
+	<update id="update" parameterClass="UserVo">
+		<![CDATA[
+		update shopmember
+		   set id=#id#, password=#password#, name=#name#, birthday=#birthday#,
+		    	phone_number=#phone_number#, handphone=#handphone#, 
+		    	email=#email#, address=#address#, condition=#condition#, type=#type# 
+		where no=#no#
+		]]>	
+	</update>
+	 -->
+	
+<!--	
+	<insert id="insert" parameterClass="UserVo">
+		<![CDATA[
+		insert
+		  into member
+		values ( member_no_seq.nextval, #name#, #email#, #password#, #gender# )
+		]]>	
+	</insert>
+	
+	<select id="emailCheck" resultClass="UserVo" parameterClass="java.util.Map">
+		<![CDATA[
+		select no, name, email, password, gender from member where email=#email#
+        ]]>    	
+	</select> -->
+	
+	
+</sqlMap> 
