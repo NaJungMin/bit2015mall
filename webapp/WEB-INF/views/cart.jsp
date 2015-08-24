@@ -122,7 +122,7 @@
 					<td width="710" align="center" valign="middle">
 						<a href="index.jsp"><img src="/assets/images/b_shopping.gif" border="0"></a>&nbsp;&nbsp;
 						<a href="#"><img src="/assets/images/b_cartalldel.gif" width="103" height="26" border="0"></a>&nbsp;&nbsp;
-						<a href="order.jsp"><img src="/assets/images/b_order1.gif" border="0"></a>
+						<a href="order"><img src="/assets/images/b_order1.gif" border="0"></a>
 					</td>
 				</tr>
 			</table>

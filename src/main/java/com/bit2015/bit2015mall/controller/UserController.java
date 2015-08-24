@@ -232,4 +232,21 @@ public class UserController {
 		return map;
 	}
 	*/
+	
+	
+	@RequestMapping("/cart")
+	public String cart(){
+		return "cart";
+	}
+	
+	@RequestMapping("/jumun")
+	public String jumum(){
+		return "jumun";
+	}
+	
+	
+	@RequestMapping("/order")
+	public String order(){
+		return "order";
+	}
 }

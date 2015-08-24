@@ -89,14 +89,14 @@
 							<tr>
 								<td bgcolor="#FFFFFF">
 									<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-										<tr><td><a href="qa.jsp"><img src="/assets/images/main_left_qa.gif" border="0" width="176"></a></td></tr>
+										<tr><td><a href="qa"><img src="/assets/images/main_left_qa.gif" border="0" width="176"></a></td></tr>
 									</table>
 								</td>
 							</tr>
 							<tr>
 								<td bgcolor="#FFFFFF">
 									<table width="100%"  border="0" cellspacing="0" cellpadding="0">
-										<tr><td><a href="faq.jsp"><img src="/assets/images/main_left_faq.gif" border="0" width="176"></a></td></tr>
+										<tr><td><a href="faq"><img src="/assets/images/main_left_faq.gif" border="0" width="176"></a></td></tr>
 									</table>
 								</td>
 							</tr>

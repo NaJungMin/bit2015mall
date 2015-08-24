@@ -10,4 +10,14 @@ public class MainController {
 	public String index() {
 		return "main/index";
 	}
+	
+	@RequestMapping( "qa" )
+	public String qa() {
+		return "qa";
+	}
+	
+	@RequestMapping( "faq" )
+	public String faq() {
+		return "faq";
+	}
 }
