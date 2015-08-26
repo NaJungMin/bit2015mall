@@ -54,6 +54,12 @@ public class AdminController {
 		return "admin/product";
 	}
 	
+	//상품등록
+	@RequestMapping("/product_new")
+	public String product_new(){
+		return "admin/product_new";
+	}
+	
 	//주문관리
 	@RequestMapping("/jumun")
 	public String jumun(){

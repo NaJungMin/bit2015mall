@@ -42,7 +42,7 @@
 		<td align="left" width="120" valign="bottom">
 			<input type="submit" value="검색">
 			&nbsp;
-			<a href="product_new.jsp"><input type="button" value="새상품"></a>
+			<a href="product_new"><input type="button" value="새상품"></a>
 		</td>
 	</tr>
 	<tr><td height="5"></td></tr>
@@ -59,6 +59,7 @@
 		<td width="120" align="center">이벤트</td>
 		<td width="80"  align="center">수정/삭제</td>
 	</tr>
+	
 	<tr bgcolor="#F2F2F2" height="23">	
 		<td width="100">&nbsp 코트</td>
 		<td width="100">&nbsp Coat001</td>

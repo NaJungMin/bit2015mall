@@ -16,9 +16,9 @@
     <td width="700" bgcolor="#F2F2F2">
 			<select name="menu">
 				<option value="0" selected>상품분류를 선택하세요</option>
-				<option value="1">바지</option>
-				<option value="2">코트</option>
-				<option value="3">브라우스</option>
+				<option value="1">금팔찌</option>
+				<option value="2">은팔찌</option>
+				<option value="3">기타팔찌</option>
 			</select>
 		</td>
 	</tr>
